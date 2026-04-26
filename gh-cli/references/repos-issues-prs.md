@@ -81,11 +81,15 @@ Notes:
 - `gh pr view 21`
 - `gh pr view 21 --comments`
 - `gh pr view 21 --json title,reviewDecision,statusCheckRollup,url`
+- `gh pr view --json number,title,state,isDraft,reviewDecision,mergeStateStatus,statusCheckRollup,url,baseRefName,headRefName,author,updatedAt`
 - `gh pr checks 21 --watch --required`
 - `gh pr checks 21 --json name,state,bucket,link`
 
 Notes:
 
+- Use `gh pr view --json ...` with no PR number to inspect the PR for the current branch.
+- For example, from a checkout on `stripe-integration`, `gh pr view --json number,title,state,isDraft,reviewDecision,mergeStateStatus,statusCheckRollup,url,baseRefName,headRefName,author,updatedAt` returns the linked PR metadata for that branch.
+- Do not assume `gh pr status --json` exposes branch-grouped objects such as `currentBranch`; in this environment that field was rejected as unsupported.
 - `gh pr checks` exits with code `8` while checks are still pending.
 - The JSON output includes `bucket`, which groups states into `pass`, `fail`, `pending`, `skipping`, or `cancel`.
 

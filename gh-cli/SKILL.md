@@ -7,7 +7,7 @@ description: GitHub CLI (`gh`) workflow guide for authenticated GitHub operation
 
 Use `gh` for GitHub work that should happen from the terminal instead of manually in the browser.
 
-The bundled references cover the common workflows that benefit from having verified examples in context. For anything outside those workflows, fetch the exact official manual page before using a command.
+The bundled references cover the common workflows that benefit from having examples in context. For anything outside those workflows, fetch the exact manual page before using a command.
 
 ## Start Here
 
@@ -23,7 +23,7 @@ The bundled references cover the common workflows that benefit from having verif
 - Read `references/repos-issues-prs.md` for day-to-day repo, issue, and pull request operations.
 - Read `references/actions-releases.md` for Actions runs, workflow dispatch, and releases.
 - Read `references/api-formatting.md` for `gh api`, GraphQL, `--json`, `--jq`, and `--template`.
-- Read `references/manual-routing.md` when a task involves a less common command family or you need the exact official manual page URL.
+- Read `references/manual-routing.md` when a task involves a less common command family or you need the exact manual page URL.
 
 ## Working Style
 
@@ -31,4 +31,3 @@ The bundled references cover the common workflows that benefit from having verif
 - Prefer documented flags over guessed shorthand. If a flag is not in these references, fetch the exact manual page before using it.
 - Use browser mode with `--web` when the task is inherently interactive or when the web UI is faster than building a long command.
 - Use `gh api` when the high-level subcommands do not expose the needed capability.
-- Treat the official manual as the source of truth.

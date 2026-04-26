@@ -1,7 +1,5 @@
 # Auth and Context
 
-These notes were verified against the official manual pages for `gh auth login` and `gh help environment`.
-
 ## Core Rules
 
 - Use `gh auth status` first when the active account, hostname, or stored credentials are unclear.

@@ -1,7 +1,5 @@
 # Actions and Releases
 
-These notes were verified against the official manual pages for `gh run list`, `gh run view`, `gh run watch`, `gh workflow run`, and `gh release create`.
-
 ## Workflow Runs
 
 ### List
@@ -36,7 +34,7 @@ Notes:
 
 Important:
 
-- The official manual says `gh run watch` does not support authentication via fine-grained PATs because the required `checks:read` permission cannot currently be expressed for those tokens.
+- `gh run watch` does not support authentication via fine-grained PATs because the required `checks:read` permission cannot currently be expressed for those tokens.
 
 ## Workflow Dispatch
 

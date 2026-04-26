@@ -1,7 +1,5 @@
 # API and Formatting
 
-These notes were verified against the official manual pages for `gh api` and `gh help formatting`.
-
 ## `gh api`
 
 Use `gh api` when the high-level `gh repo`, `gh issue`, `gh pr`, `gh run`, or `gh release` commands do not expose the required capability.

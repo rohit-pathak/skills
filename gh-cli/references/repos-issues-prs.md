@@ -1,7 +1,5 @@
 # Repos, Issues, and PRs
 
-These notes were verified against the official manual pages for `gh repo clone`, `gh repo create`, `gh repo list`, `gh repo view`, `gh issue create`, `gh issue list`, `gh issue view`, `gh pr create`, `gh pr view`, `gh pr checks`, and `gh pr merge`.
-
 ## Repositories
 
 ### Clone
